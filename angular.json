@@ -117,8 +117,13 @@
               "devServerTarget": "Tour-of-Heroes:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Tour-of-Heroes"
 }
